@@ -1559,11 +1559,12 @@ hr.invis1 {
     position: relative;
     overflow: hidden;
 }
+
 .our-team .team_img:after{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: rgba(99, 0, 238, 0.11);
+    background-color: rgba(98, 0, 238, 0.11);
     position: absolute;
     bottom: -100%;
     left: 0;
