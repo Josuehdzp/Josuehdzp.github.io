@@ -332,21 +332,21 @@ a img.aligncenter {
 	font-size: 18px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	background-color: #e65100;
+	background-color: #6200EE;
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
 }
 
 .right-btn a:hover{
-	background-color: #e65100;
+	background-color: #6200EE;
 	color: #ffffff;
-	border: 1px solid #e65100;
+	border: 1px solid #6200EE;
 }
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: #e65100;
+	background: #6200EE;
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -405,7 +405,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: #e65100;
+    color: #6200EE;
 }
 
 .header_style_01 .navbar-right > li {
@@ -435,7 +435,7 @@ li.social-links a {
 }
 
 li.social-links a:hover {
-	color: #e65100;
+	color: #6200EE;
 }
 
 .header_style_01.fixed-menu{
@@ -503,7 +503,7 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 .top-banner{
-	background: url(uploads/bg-img.jpg) bottom center no-repeat #e65100;
+	background: url(uploads/bg-img.jpg) bottom center no-repeat #6200EE;
 	height: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1366,7 +1366,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .hoverbutton {
-    background-color: #e65100;
+    background-color: #6200EE;
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1482,7 +1482,7 @@ hr.invis1 {
 }
 
 .owl-screenshots .swiper-button-next:hover, .owl-screenshots .swiper-button-prev:hover{
-	color: #E65100;
+	color: #6200EE;
 }
 
 .swiper-pagination-bullet{
@@ -1563,7 +1563,7 @@ hr.invis1 {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(99, 0, 238, 0.11);
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -1753,7 +1753,7 @@ body.app_version .customwidget li i{
     border-radius: 6px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #e65100;
+    background-color: #6200EE;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -2450,7 +2450,7 @@ body.app_version .dev-list .widget-title small{
      left: 0;
      margin: 0px;
      height: 2px;
-     background: #e65100;
+     background: #6200EE;
      visibility: hidden;
      transition: all 0.45s ease;
      -webkit-transition: all 0.45s ease;
