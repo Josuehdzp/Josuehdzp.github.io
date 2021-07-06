@@ -726,7 +726,7 @@ body.app_version .header_style_01.fixed-menu{
     bottom: auto;
     right: auto;
     border-radius: 12px;
-    width: 67%;
+    width: 70%;
     -webkit-transform: translateX(-50%) translateY(-50%);
         -ms-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
