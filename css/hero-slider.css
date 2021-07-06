@@ -316,6 +316,7 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__btn.cd-hero__btn--secondary {
   background-color: #333333;
+  border-radius: 8px;
 }
 
 .cd-hero__btn:nth-of-type(2) {
