@@ -512,7 +512,7 @@ li.social-links a:hover {
 }
 
 .header_style_01.fixed-menu{
-	padding: 15px 0px;
+	padding: 0px 0px;
 	box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
 }
 
@@ -711,6 +711,7 @@ body.app_version .header_style_01.fixed-menu{
 .about-right h2{
 	font-size: 32px;
 	font-weight: 600;
+    margin-top: 45px;
 }
 .about-right p{
 	color: #323232;
@@ -718,7 +719,20 @@ body.app_version .header_style_01.fixed-menu{
 	font-weight: 400;
 }
 
+.about-left img{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    bottom: auto;
+    right: auto;
+    border-radius: 12px;
+    width: 67%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
 
+  
 
 .services-inner-box{
 	padding: 15px;
@@ -954,6 +968,7 @@ counter-increment: steps;
 
 .colon1, .colon2, .colon3, .colon4{
 	background: #333333;
+    height: 300px;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
@@ -962,8 +977,8 @@ counter-increment: steps;
 }
 
 .colon1:hover, .colon2:hover, .colon3:hover, .colon4:hover{
-	background: #6200EE;
-	background-size: cover;
+    background-color: #6200EE;
+	background-size: auto;
 	background-position: 0px 75px;
 }
 
@@ -979,7 +994,7 @@ counter-increment: steps;
     box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
 }
 .testimonial .description{
-    font-size: 14px;
+    font-size: 16px;
     color: #777;
     line-height: 26px;
     text-indent: 30px;
@@ -1091,7 +1106,7 @@ counter-increment: steps;
     content: "";
     width: 1px;
     height: 80%;
-    background: #333333;
+    background: #fff;
     position: absolute;
     top: 30px;
     left: 24px;
@@ -1138,7 +1153,8 @@ counter-increment: steps;
     padding: 15px 55px 15px 30px;
     font-size: 20px;
     font-weight: 600;
-    color: #550527;
+    line-height: 1;
+    color: #000;
     border: none;
     margin: 0;
     position: relative;
@@ -1340,7 +1356,7 @@ counter-increment: steps;
 }
 
 .download-bg{
-	background: url(uploads/d-bg.jpg) no-repeat center;
+	background: url(uploads/show/top_4.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
@@ -1627,6 +1643,7 @@ hr.invis1 {
 .our-team .team_img{
     position: relative;
     overflow: hidden;
+    border-radius: 12px;
 }
 
 .our-team .team_img:after{
@@ -1742,10 +1759,10 @@ hr.invis1 {
 -------------------------------------------------------------------*/
 
 .customwidget h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #ffffff;
     display: inline;
-    padding: 2.5px 6px;
+    padding: 4.0px;
     line-height:1.4;
     color: aliceblue;
     background-color: #1f1f1f94;
@@ -1781,6 +1798,7 @@ body.app_version .customwidget li i{
     z-index: 10;
     padding-right: 30px;
     text-align: center;
+    width: fit-content;
 }
 
 .customwidget p {
@@ -1909,7 +1927,7 @@ body.app_version .customwidget li i{
 }
 
 .features-bg{
-	background: url(uploads/d-bg.jpg) no-repeat center;
+	background: url(uploads/show/acerca_3.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
     margin-bottom: 20px;
@@ -1918,7 +1936,7 @@ body.app_version .customwidget li i{
 
 .features-bg::before{
 	content: "" ;
-	background: rgba(61, 56, 87, 0.25);
+	background: rgba(187, 187, 187, 0.459);
     border-radius: 12px;
 	width: 100%;
 	height: 100%;
@@ -1937,7 +1955,7 @@ body.app_version .customwidget li i{
     color: #323232;
     counter-reset: steps;
     padding: 4px;
-    margin-top: 30px;
+    margin: 30px 0px 20px 0px;
     background: #1f1f1f94;
     border-radius: 12px;
   }
@@ -2022,6 +2040,9 @@ counter-increment: steps;
 	color: #ffffff;
 }
 
+#faqs .section-title h3{
+	color: #ffffff;
+}
 
  .show > .btn-light.dropdown-toggle{
 	 background-color: transparent;
@@ -2245,6 +2266,51 @@ body.app_version .bootstrap-select .btn-light:hover{
 	width: 100%;
 }
 
+.subscribe-form ul {
+    color: #fff;
+    list-style: none;
+  }
+  
+.subscribe-form ol {
+    color: #fff;
+    counter-reset: steps;
+    padding: 4px;
+    margin: 30px 0px 20px 0px;
+    background: #1f1f1f94;
+    border-radius: 12px;
+}
+
+.subscribe-form a {
+    color: #fff;
+    counter-reset: steps;
+    padding: 4px;
+    margin: 30px 0px 20px 0px;
+    background: #1f1f1f94;
+    border-radius: 12px;
+}
+
+.subscribe-form a:hover{
+	color: #6200EE;
+}
+
+.subscribe-form ol li{
+counter-increment: steps;
+}
+
+.subscribe-form ol li::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 0.5rem;
+    background: #6200EE;
+    color: #fff;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
+}
+
 .subscribe-form .form-control {
     border: none;
     border-radius: 0px;
@@ -2444,8 +2510,8 @@ body.app_version .bootstrap-select .btn-light:hover{
 .stat-wrap h3 {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 20px;
     color: #ffffff;
-    margin: 0 !important;
     padding: 0 !important;
     line-height: 1 !important:
 }

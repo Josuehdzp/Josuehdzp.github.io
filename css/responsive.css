@@ -441,8 +441,8 @@
 		position: relative;
 	}
 	.image-center img{
-		margin: 0px;
-		padding: 0px;
+        margin: 10px 0px 10px 0px;
+        padding: 0px;
 	}
 	.pricing-table-text{
 		margin: 15px 10px 0 10px;
