@@ -1369,7 +1369,7 @@ counter-increment: steps;
 }
 
 .download-bg{
-	background: url(uploads/show/top_4.jpg) no-repeat center;
+	background: url(uploads/dvshow/dv-estabperf.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
@@ -1940,7 +1940,7 @@ body.app_version .customwidget li i{
 }
 
 .features-bg{
-	background: url(uploads/show/acerca_3.jpg) no-repeat center;
+	background: url(uploads/dvshow/dv-inicio.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
     margin-bottom: 20px;

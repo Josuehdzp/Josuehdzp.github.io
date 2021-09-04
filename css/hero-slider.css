@@ -180,27 +180,27 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__slide:first-of-type {
   background-color: #E65100;
-  background-image: url(../uploads/show/top_1.jpg);
+  background-image: url(../uploads/dvshow/dv-estabperf.jpg);
 }
 
 .cd-hero__slide:nth-of-type(2) {
   background-color: #6200EE;
-  background-image: url(../uploads/show/top_3.jpg);
+  background-image: url(../uploads/dvshow/dv-localizar.jpg);
 }
 
 .cd-hero__slide:nth-of-type(3) {
   background-color: #6200EE;
-  background-image: url(../uploads/show/top_2.jpg);
+  background-image: url(../uploads/dvshow/dv-resenas.jpg);
 }
 
 .cd-hero__slide:nth-of-type(4) {
   background-color: #6200EE;
-  background-image: url(../uploads/show/top_4.jpg);
+  background-image: url(../uploads/dvshow/dv-pedidos.jpg);
 }
 
 .cd-hero__slide:nth-of-type(5) {
   background-color: #6200EE;
-  background-image: url(../uploads/show/top_6.jpg);
+  background-image: url(../uploads/dvshow/dv-eleccion.jpg);
 }
 
 .cd-hero__content.cd-hero__content--full-width,
